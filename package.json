@@ -1,23 +1,27 @@
 {
   "name": "simple-note-taking-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an Assignment.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "chai": "^5.0.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-basic-auth": "^1.2.1",
     "mocha": "^10.2.0",
     "mongoose": "^8.0.3",
-    "nodemon": "^3.0.2",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
     "supertest": "^6.3.3"
   }
 }
